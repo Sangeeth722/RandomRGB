@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General Styling */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    transition: background-color 0.4s ease-in-out;
+}
+
+/* Header */
+h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Buttons */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button Colors */
+#red { background-color: red; }
+#green { background-color: green; }
+#yellow { background-color: yellow; color:black; }
+#random { background-color: gray; }
+
+/* Hover Effects */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Active (Click) Effect */
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Color Flipper</h1>
+
+    <button id="red" onclick="changeColor('red')">RED</button>
+    <button id="green" onclick="changeColor('green')">GREEN</button>
+    <button id="yellow" onclick="changeColor('yellow')">YELLOW</button>
+    <button id="random"onclick="randomColr()">RANDOM</button>
+
+
+
+
+
+    <script src="index.js">
+    
+    </script>
+</body>
+
+</html>
