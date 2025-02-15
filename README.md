@@ -10,7 +10,7 @@ A simple and interactive web app that changes the background color to a randomly
 
 
 ## 🚀 Live Demo  
-🔗 [View Project](null-record.surge.sh)
+🔗 [View Project](http://null-record.surge.sh/)
 
 ---
 
